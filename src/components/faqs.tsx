@@ -51,8 +51,8 @@ export function FAQS() {
                     Common FAQS
                 </h2>
             </div>
-            <div className='grid grid-cols-1 gap-4 md:grid-cols-2'>
-                <div className='space-y-6'>
+            <div className='grid grid-cols-1 gap-4 md:grid-cols-2 flex'>
+                <div className='space-y-6 flex center'>
                     {data.map((item, index) => (
                         <button
                             className='w-full'
